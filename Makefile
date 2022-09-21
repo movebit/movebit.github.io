@@ -7,3 +7,4 @@ publish:
 	@git add .
 	@git commit -m "发布文章"
 	@git push origin main
+	@echo "文章发布成功!!!"
