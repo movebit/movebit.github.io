@@ -18,35 +18,24 @@
 $ npm install -g hexo-cli
 ```
 
-#### 3.修改网页属性
-参照官方文档：
+#### 3.网页属性
+参照官方文档：https://hexo.io/zh-cn/docs/configuration
 
-
-```
-git clone https://github.com/Kaijun/hexo-theme-huxblog.git
-cd hexo-theme-huxblog
-npm install
+#### 4.预览网站
+```shell
+$ hexo s
 ```
 
-##### 2.Modify
-Modify `_config.yml` file with your own info.
-Especially the section:
-
-```
-deploy:
-  type: git
-  repo: https://github.com/Kaijun/hexo-theme-huxblog
-  branch: gh-pages
-```
-Replace with your own repo!
-
-##### 3.Writting/Serve/Deploy
-
-```
-hexo new post IMAPOST
-hexo serve // run hexo in local environment
-hexo clean && hexo deploy // hexo will push the static files automatically into the specific branch(gh-pages) of your repo!
+#### 5.生成文章
+```shell
+$ hexo clean && hexo g
 ```
 
-##### 4.Enjoy! 
-Please [**Star**](https://github.com/kaijun/hexo-theme-huxblog/stargazers) this Project if you like it! [**Following**](https://github.com/Kaijun) would also be appreciated!
+#### 6.推送文章
+```shell
+$ git add .
+$ git commit -m "发布文章"
+$ git push origin main
+```
+
+注意：步骤5和6建议使用一键脚本`make publish`
