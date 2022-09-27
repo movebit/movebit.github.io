@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://blog.movebit.xyz
 permalink: /post/:title.html
 permalink_defaults:
 pretty_urls:
@@ -103,6 +103,20 @@ theme: leedom
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 10
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: 
+  autodiscovery: true
+  template:
 
 search:
   path: search.xml
