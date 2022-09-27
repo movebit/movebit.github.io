@@ -3,11 +3,11 @@
   <title>Hexo</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="http://blog.movebit.xyz/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
-  <updated>2022-09-27T08:15:19.640Z</updated>
-  <id>http://example.com/</id>
+  <link href="http://blog.movebit.xyz/"/>
+  <updated>2022-09-27T08:32:40.325Z</updated>
+  <id>http://blog.movebit.xyz/</id>
   
   <author>
     <name>John Doe</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/post/hello-world.html"/>
-    <id>http://example.com/post/hello-world.html</id>
-    <published>2022-09-27T01:19:45.067Z</published>
-    <updated>2022-09-27T08:15:19.640Z</updated>
+    <link href="http://blog.movebit.xyz/post/hello-world.html"/>
+    <id>http://blog.movebit.xyz/post/hello-world.html</id>
+    <published>2022-09-27T08:32:40.325Z</published>
+    <updated>2022-09-27T08:32:40.325Z</updated>
     
     
       
