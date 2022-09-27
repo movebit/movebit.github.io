@@ -20,23 +20,28 @@ $ npm install -g hexo-cli
 初次运行本项目，需要继续执行以下命令，安装项目主题所需依赖
 ```shell
 $ npm install
-$ npm install hexo-theme-aurora --save
 ```
 
 #### 3.网页属性
 参照官方文档：https://hexo.io/zh-cn/docs/configuration
 
-#### 4.预览网站
+#### 4.新建文章
+```shell
+$ hexo new post <title>
+```
+会在source/_posts目录下生成一个mardown文件，编辑该文件就是编辑该文章
+
+#### 5.预览网站
 ```shell
 $ hexo s
 ```
 
-#### 5.生成文章
+#### 6.生成文章
 ```shell
 $ hexo clean && hexo g
 ```
 
-#### 6.推送文章
+#### 7.推送文章
 ```shell
 $ git add .
 $ git commit -m "发布文章"
