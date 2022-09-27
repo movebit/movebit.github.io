@@ -1,39 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>MoveBit</title>
   
-  
+  <subtitle>Securing the Move Ecosystem</subtitle>
   <link href="http://blog.movebit.xyz/atom.xml" rel="self"/>
   
   <link href="http://blog.movebit.xyz/"/>
-  <updated>2022-09-27T08:32:40.325Z</updated>
+  <updated>2022-09-27T09:06:55.195Z</updated>
   <id>http://blog.movebit.xyz/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>MoveBit</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://blog.movebit.xyz/post/hello-world.html"/>
-    <id>http://blog.movebit.xyz/post/hello-world.html</id>
-    <published>2022-09-27T08:32:40.325Z</published>
-    <updated>2022-09-27T08:32:40.325Z</updated>
+    <title>Verify Smart Contracts in Aptos with the Move Prover Pt.1</title>
+    <link href="http://blog.movebit.xyz/post/move-prover-tutorial-part-1.html"/>
+    <id>http://blog.movebit.xyz/post/move-prover-tutorial-part-1.html</id>
+    <published>2022-09-27T08:53:50.000Z</published>
+    <updated>2022-09-27T09:06:55.195Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+    <summary type="html">&lt;p&gt;&lt;em&gt;Xudong Wang  &amp;amp; 0xyi&lt;/em&gt; 09-14-2022&lt;/p&gt;
+&lt;p&gt;It has been widely acclaimed that the Move Prover makes it very simple to formally</summary>
         
       
     
     
     
+    
+    <category term="move prover, m" scheme="http://blog.movebit.xyz/tags/move-prover-m/"/>
     
   </entry>
   
