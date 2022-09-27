@@ -17,6 +17,11 @@
 ```shell
 $ npm install -g hexo-cli
 ```
+初次运行本项目，需要继续执行以下命令，安装项目主题所需依赖
+```shell
+$ npm install
+$ npm install hexo-theme-aurora --save
+```
 
 #### 3.网页属性
 参照官方文档：https://hexo.io/zh-cn/docs/configuration
