@@ -20,6 +20,7 @@ $ npm install -g hexo-cli
 初次运行本项目，需要继续执行以下命令，安装项目主题所需依赖
 ```shell
 $ npm install
+$ npm i hexo-theme-leedom
 ```
 
 #### 3.网页属性
