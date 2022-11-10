@@ -18,7 +18,7 @@ favicon:
 avatar:
   author_photo: /images/avatar.png
   author_nickname: MoveBit
-  path: /
+  path: https://movebit.xyz/
 
 # 文章末尾的上一页与下一页
 prevnext:

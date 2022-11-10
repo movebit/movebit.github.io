@@ -6,7 +6,7 @@
   <link href="http://blog.movebit.xyz/atom.xml" rel="self"/>
   
   <link href="http://blog.movebit.xyz/"/>
-  <updated>2022-10-18T12:00:55.499Z</updated>
+  <updated>2022-11-10T10:09:23.463Z</updated>
   <id>http://blog.movebit.xyz/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>The First MoveCTF Summary</title>
+    <link href="http://blog.movebit.xyz/post/the-first-movectf-summary.html"/>
+    <id>http://blog.movebit.xyz/post/the-first-movectf-summary.html</id>
+    <published>2022-11-10T10:00:00.000Z</published>
+    <updated>2022-11-10T10:09:23.463Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;MoveCTF  (Nov 5 — Nov 7 &amp;#x2F; 2022), the first Move CTF (Capture The Flag) security competition, exclusively sponsored by Sui Network</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>MoveBit Launches the First Move CTF Security Competition Sponsored by Mysten Labs</title>
     <link href="http://blog.movebit.xyz/post/movectf.html"/>
     <id>http://blog.movebit.xyz/post/movectf.html</id>
     <published>2022-10-18T11:42:30.000Z</published>
-    <updated>2022-10-18T12:00:55.499Z</updated>
+    <updated>2022-11-10T09:33:30.490Z</updated>
     
     
       
@@ -42,7 +63,7 @@
     <link href="http://blog.movebit.xyz/post/move-prover-tutorial-part-1.html"/>
     <id>http://blog.movebit.xyz/post/move-prover-tutorial-part-1.html</id>
     <published>2022-09-27T08:53:50.000Z</published>
-    <updated>2022-09-27T09:06:55.195Z</updated>
+    <updated>2022-09-29T02:47:52.132Z</updated>
     
     
       

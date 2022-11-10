@@ -4,6 +4,6 @@ publish:
 	@hexo clean && hexo g
 	@echo "发布文章..."
 	@git add .
-	@git commit -m "发布文章"
+	@git commit -m "new post publish"
 	@git push origin main
 	@echo "文章发布成功!!!"
