@@ -2,6 +2,8 @@
 title: MoveBit Launches the First Move CTF Security Competition Sponsored by Mysten Labs
 date: 2022-10-18 19:42:30
 tags:
+description: The Move ecosystem is booming, and with it comes a need for Move-specific security expertise.
+thumbnail: /img/icon.png
 ---
 
 The Move ecosystem is booming, and with it comes a need for Move-specific security expertise. Though Move is a secure and safe language by design, Move developers still need a place to learn and practice writing secure Move smart contracts.
