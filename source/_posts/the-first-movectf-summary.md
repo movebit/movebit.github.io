@@ -2,6 +2,8 @@
 title: The First MoveCTF Summary
 date: 2022-11-10 18:00:00
 tags:
+description: MoveCTF  (Nov 5 — Nov 7 / 2022), the first Move CTF (Capture The Flag) security competition
+thumbnail: /img/icon.png
 ---
 
 MoveCTF  (Nov 5 — Nov 7 / 2022), the first Move CTF (Capture The Flag) security competition, exclusively sponsored by Sui Network development company Mysten Labs, concluded successfully. The competition was organized by MoveBit, ChainFlag, OtterSec and co-organized by Mynft and SuiWorld DAO.

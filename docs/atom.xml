@@ -6,7 +6,7 @@
   <link href="http://blog.movebit.xyz/atom.xml" rel="self"/>
   
   <link href="http://blog.movebit.xyz/"/>
-  <updated>2022-11-10T10:09:23.463Z</updated>
+  <updated>2022-11-18T02:14:10.202Z</updated>
   <id>http://blog.movebit.xyz/</id>
   
   <author>
@@ -21,16 +21,10 @@
     <link href="http://blog.movebit.xyz/post/the-first-movectf-summary.html"/>
     <id>http://blog.movebit.xyz/post/the-first-movectf-summary.html</id>
     <published>2022-11-10T10:00:00.000Z</published>
-    <updated>2022-11-10T10:09:23.463Z</updated>
+    <updated>2022-11-18T02:14:10.202Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;MoveCTF  (Nov 5 — Nov 7 &amp;#x2F; 2022), the first Move CTF (Capture The Flag) security competition, exclusively sponsored by Sui Network</summary>
-        
-      
+    <summary type="html">MoveCTF  (Nov 5 — Nov 7 / 2022), the first Move CTF (Capture The Flag) security competition</summary>
     
     
     
@@ -42,7 +36,7 @@
     <link href="http://blog.movebit.xyz/post/movectf.html"/>
     <id>http://blog.movebit.xyz/post/movectf.html</id>
     <published>2022-10-18T11:42:30.000Z</published>
-    <updated>2022-11-17T10:13:20.072Z</updated>
+    <updated>2022-11-18T01:45:33.391Z</updated>
     
     
     <summary type="html">The Move ecosystem is booming, and with it comes a need for Move-specific security expertise.</summary>
@@ -57,17 +51,10 @@
     <link href="http://blog.movebit.xyz/post/move-prover-tutorial-part-1.html"/>
     <id>http://blog.movebit.xyz/post/move-prover-tutorial-part-1.html</id>
     <published>2022-09-27T08:53:50.000Z</published>
-    <updated>2022-09-29T02:47:52.132Z</updated>
+    <updated>2022-11-18T02:13:41.082Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;em&gt;Xudong Wang  &amp;amp; 0xyi&lt;/em&gt; 09-14-2022&lt;/p&gt;
-&lt;p&gt;It has been widely acclaimed that the Move Prover makes it very simple to formally</summary>
-        
-      
+    <summary type="html">It has been widely acclaimed that the Move Prover makes it very simple to formally verify Move contracts</summary>
     
     
     

@@ -2,6 +2,8 @@
 title: Verify Smart Contracts in Aptos with the Move Prover Pt.1
 date: 2022-09-27 16:53:50
 tags: move prover, m
+description: It has been widely acclaimed that the Move Prover makes it very simple to formally verify Move contracts
+thumbnail: /img/icon.png
 ---
 
 *Xudong Wang  & 0xyi* 09-14-2022
