@@ -25,7 +25,7 @@ prevnext:
   enable: true
 
 # 链接信息
-link: 
+link:
   # name: 名称
   # icon: 图标，目前仅支持IconFont部分图标
   # path: 地址
@@ -56,6 +56,18 @@ link:
     path: /atom.xml
     target: _blank
 
+# 链接信息
+links:
+  # name: 名称
+  # icon: 图标，目前仅支持IconFont部分图标
+  # path: 地址
+  # target: 跳转方式
+  -
+    # 档案
+    name: discord
+    icon: /img/discord.png
+    path: https://discord.gg/7wM8VU9Gyj
+    target: _blank
 
 # 页脚信息
 footer:
@@ -63,10 +75,10 @@ footer:
     name: Copyright © MoveBit 2022
     path: https://www.movebit.xyz
   -
-    name: 
-    path: 
+    name:
+    path:
 
 # 文章搜索
 search:
   enable: true
-  placeholder: 
+  placeholder:
