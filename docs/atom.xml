@@ -6,7 +6,7 @@
   <link href="http://blog.movebit.xyz/atom.xml" rel="self"/>
   
   <link href="http://blog.movebit.xyz/"/>
-  <updated>2022-12-05T09:52:03.530Z</updated>
+  <updated>2022-12-30T07:23:59.236Z</updated>
   <id>http://blog.movebit.xyz/</id>
   
   <author>
@@ -15,6 +15,21 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Sui Concept and Testnet</title>
+    <link href="http://blog.movebit.xyz/post/Sui%20Concept%20and%20Testnet.html"/>
+    <id>http://blog.movebit.xyz/post/Sui%20Concept%20and%20Testnet.html</id>
+    <published>2022-12-30T08:53:50.000Z</published>
+    <updated>2022-12-30T07:23:59.236Z</updated>
+    
+    
+    <summary type="html">MoveBit will show you how to run and interact with Sui local testnet</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>The First MoveCTF Summary</title>
