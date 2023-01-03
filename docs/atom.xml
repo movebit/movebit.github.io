@@ -6,7 +6,7 @@
   <link href="http://blog.movebit.xyz/atom.xml" rel="self"/>
   
   <link href="http://blog.movebit.xyz/"/>
-  <updated>2023-01-03T07:16:19.272Z</updated>
+  <updated>2023-01-03T08:07:22.182Z</updated>
   <id>http://blog.movebit.xyz/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>Bootstrap of Sui local testnet</title>
-    <link href="http://blog.movebit.xyz/post/02-Bootstrap%20of%20Sui%20local%20testnet%207860ec878e8f42c98a7c754b3afd2d30.html"/>
-    <id>http://blog.movebit.xyz/post/02-Bootstrap%20of%20Sui%20local%20testnet%207860ec878e8f42c98a7c754b3afd2d30.html</id>
+    <link href="http://blog.movebit.xyz/post/Bootstrap%20of%20Sui%20local%20testnet.html"/>
+    <id>http://blog.movebit.xyz/post/Bootstrap%20of%20Sui%20local%20testnet.html</id>
     <published>2023-01-03T06:30:50.000Z</published>
-    <updated>2023-01-03T07:16:19.272Z</updated>
+    <updated>2023-01-03T08:07:22.182Z</updated>
     
     
     <summary type="html">MoveBit will show you how to run and interact with Sui local testnet</summary>

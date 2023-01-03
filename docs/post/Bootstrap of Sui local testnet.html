@@ -137,10 +137,10 @@
     Bootstrap of Sui local testnet
   </h1>
   <div class="content markdown-body">
-    <p><img src="/../img/111.png" alt="Untitled"><br>Since the code of sui is updated very quickly and we do not need to connect to devnet, so we select the main branch to analyze.</p>
+    <p><img src="/../img/20230103/111.png" alt="Untitled"><br>Since the code of sui is updated very quickly and we do not need to connect to devnet, so we select the main branch to analyze.</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">branch main
 commit db5a090d56c8f1f065474f26a12e97dc0ee33e12</code></pre>
-<p><img src="/../img/300.png" alt="Untitled"></p>
+<p><img src="/../img/20230103/300.png" alt="Untitled"></p>
 <h1 id="Sui-package"><a href="#Sui-package" class="headerlink" title="Sui package"></a>Sui package</h1><p>The Sui package is in <code>sui/crates/sui</code> folder. It will be compiled into the sui command line tool. The files structure of this package is as follows:</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">➜  sui git:(main) tree
 .
@@ -306,7 +306,7 @@ async fn genesis(
     &#125;;
 ...</code></pre>
 
-<p><img src="/../img/301.png" alt="Untitled"></p>
+<p><img src="/../img/20230103/301.png" alt="Untitled"></p>
 <h2 id="create-objects"><a href="#create-objects" class="headerlink" title="create objects"></a>create objects</h2><p>Generate some important objects according the given configuration files or default configuration parameters.</p>
 <ul>
 <li>network_config</li>
@@ -330,7 +330,7 @@ let mut network_config &#x3D; if let Some(validators) &#x3D; validator_info &#12
     &#125;;
 </code></pre>
 
-<p><img src="/../img/308.png" alt="Untitled"></p>
+<p><img src="/../img/20230103/308.png" alt="Untitled"></p>
 <h2 id="store-objects"><a href="#store-objects" class="headerlink" title="store objects"></a>store objects</h2><p>After all objects are generated, the <code>network_config , genesis, validator,keystore and client_config</code>  will be written to disk.</p>
 <pre class="line-numbers language-rust" data-language="rust"><code class="language-rust">
   let mut keystore &#x3D; FileBasedKeystore::new(&amp;keystore_path)?;
@@ -433,7 +433,7 @@ fn load&lt;P: AsRef&lt;Path&gt;&gt;(path: P) -&gt; Result&lt;Self, anyhow::Error
         Ok(serde_yaml::from_reader(reader)?)
     &#125;</code></pre>
 
-<p><img src="/../img/302.png" alt="Untitled"></p>
+<p><img src="/../img/20230103/302.png" alt="Untitled"></p>
 <h2 id="build-swarm"><a href="#build-swarm" class="headerlink" title="build swarm"></a>build swarm</h2><p>Swarm is a handle to an in-memory Sui network.It contain a network_config and validators.</p>
 <pre class="line-numbers language-rust" data-language="rust"><code class="language-rust">&#x2F;&#x2F;sui&#x2F;crates&#x2F;sui-swarm&#x2F;src&#x2F;memory&#x2F;swarm.rs
 &#x2F;&#x2F;&#x2F; A handle to an in-memory Sui Network.
@@ -454,7 +454,7 @@ let mut swarm &#x3D; if no_full_node &#123;
                 &#125;
                 .from_network_config(sui_config_dir()?, network_config);</code></pre>
 
-<p><img src="/../img/303.png" alt="Untitled"></p>
+<p><img src="/../img/20230103/303.png" alt="Untitled"></p>
 <h2 id="run-validators"><a href="#run-validators" class="headerlink" title="run validators"></a>run validators</h2><p>After we build the swarm, we can use it to run each validator.</p>
 <p>The whole process is:</p>
 <p><code>//node.spawn()--&gt;Container::spawn()--&gt;SuiNode::start()</code></p>
@@ -647,7 +647,7 @@ pub async fn start(config: &amp;NodeConfig, prometheus_registry: Registry) -&gt;
 
         Ok(node)</code></pre>
 
-<p><img src="/../img/304.png" alt="Untitled"></p>
+<p><img src="/../img/20230103/304.png" alt="Untitled"></p>
 <p>We can get more info from the debug output.(here we only focus on the startup information of one node: 0x0f0711008959ccb02d47f2fb22c102bb60bcbe9a).</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">Launching: &#x2F;Users&#x2F;safeer&#x2F;sui&#x2F;target&#x2F;debug&#x2F;sui start
 Launched process 80154

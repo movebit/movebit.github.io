@@ -5,14 +5,14 @@ tags: Sui blockchain,Sui,Move Language
 description: MoveBit will show you how to run and interact with Sui local testnet
 thumbnail: /img/icon.png
 ---
-![Untitled](../img/111.png)
+![Untitled](../img/20230103/111.png)
 Since the code of sui is updated very quickly and we do not need to connect to devnet, so we select the main branch to analyze.
 
 ```bash
 branch main
 commit db5a090d56c8f1f065474f26a12e97dc0ee33e12
 ```
-![Untitled](../img/300.png)
+![Untitled](../img/20230103/300.png)
 
 # Sui package
 
@@ -203,7 +203,7 @@ async fn genesis(
 ...
 ```
 
-![Untitled](../img/301.png)
+![Untitled](../img/20230103/301.png)
 
 ## create objects
 
@@ -232,7 +232,7 @@ let mut network_config = if let Some(validators) = validator_info {
 
 ```
 
-![Untitled](../img/308.png)
+![Untitled](../img/20230103/308.png)
 
 ## store objects
 
@@ -355,7 +355,7 @@ fn load<P: AsRef<Path>>(path: P) -> Result<Self, anyhow::Error> {
     }
 ```
 
-![Untitled](../img/302.png)
+![Untitled](../img/20230103/302.png)
 
 ## build swarm
 
@@ -384,7 +384,7 @@ let mut swarm = if no_full_node {
                 .from_network_config(sui_config_dir()?, network_config);
 ```
 
-![Untitled](../img/303.png)
+![Untitled](../img/20230103/303.png)
 
 ## run validators
 
@@ -592,7 +592,7 @@ pub async fn start(config: &NodeConfig, prometheus_registry: Registry) -> Result
         Ok(node)
 ```
 
-![Untitled](../img/304.png)
+![Untitled](../img/20230103/304.png)
 
 We can get more info from the debug output.(here we only focus on the startup information of one node: 0x0f0711008959ccb02d47f2fb22c102bb60bcbe9a).
 
