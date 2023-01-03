@@ -5,7 +5,7 @@ tags: Sui blockchain,Sui,Move Language
 description: MoveBit will show you how to run and interact with Sui local testnet
 thumbnail: /img/icon.png
 ---
-![Untitled](../img/305.png)
+![Untitled](../img/111.png)
 Since the code of sui is updated very quickly and we do not need to connect to devnet, so we select the main branch to analyze.
 
 ```bash
